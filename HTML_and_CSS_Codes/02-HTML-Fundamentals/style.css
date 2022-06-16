@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -11,6 +16,30 @@ h2,
 h3 {
   color: cornflowerblue;
 }
+article {
+  margin-bottom: 60px;
+}
+.main-header {
+  background-color: whitesmoke;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+aside {
+  border-top: 5px solid aqua;
+  border-bottom: 5px solid aqua;
+  background-color: aliceblue;
+  /* list-style: none; */
+  padding: 50px 0;
+  width: 500px;
+}
+
+aside li {
+  list-style: none;
+}
 
 h1 {
   font-size: 26px;
@@ -20,41 +49,48 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 20px;
+}
+.post-header {
+  margin-bottom: 30px;
 }
 
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin: 0;
 }
 
 footer p {
   /* descendent selector */
   font-size: 16px;
 }
-aside {
-  border-top: 5px solid aqua;
-  border-bottom: 5px solid aqua;
-  background-color: aliceblue;
-  /* list-style: none; */
-}
 
-aside li {
-  list-style: none;
-}
 a:link {
   color: black;
   text-decoration: none;
@@ -73,4 +109,8 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+.post-image {
+  width: 100%;
+  height: auto;
 }
