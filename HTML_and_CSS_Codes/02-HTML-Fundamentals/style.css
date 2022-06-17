@@ -19,6 +19,13 @@ h3 {
 article {
   margin-bottom: 60px;
 }
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: whitesmoke;
   /* padding: 20px;
