@@ -97,6 +97,11 @@ footer p {
   /* descendent selector */
   font-size: 16px;
 }
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
 
 a:link {
   color: black;
