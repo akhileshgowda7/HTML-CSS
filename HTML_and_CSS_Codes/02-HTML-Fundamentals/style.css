@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h1,
@@ -26,7 +27,7 @@ article {
   margin-bottom: 60px;
 }
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -46,8 +47,7 @@ aside {
   border-bottom: 5px solid aqua;
   background-color: aliceblue;
   /* list-style: none; */
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 aside li {
@@ -74,7 +74,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .post-header {
   margin-bottom: 30px;
@@ -132,6 +132,10 @@ a:active {
   width: 100%;
   height: auto;
 }
+.related {
+  list-style: none;
+  margin-left: 0;
+}
 button {
   font-size: 22px;
   padding: 20px;
@@ -175,4 +179,17 @@ h1 {
 }
 nav {
   float: right;
+}
+article {
+  /* background-color: green; */
+  width: 825px;
+  float: left;
+}
+aside {
+  /* background-color: red; */
+  width: 300px;
+  float: right;
+}
+footer {
+  clear: both;
 }
